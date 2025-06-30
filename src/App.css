@@ -1,0 +1,229 @@
+@import 'antd/dist/reset.css';
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+.cv-ant-layout {
+  min-height: 100vh;
+  background: #f5f6fa;
+  overflow-x: hidden;
+}
+.cv-header {
+  background: #001529;
+  text-align: center;
+  padding: 0;
+}
+.cv-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0 1rem 0;
+}
+.cv-navbar {
+  width: 100%;
+  justify-content: center;
+  background: transparent !important;
+}
+.cv-navbar .ant-menu {
+  min-height: 32px;
+  font-size: 1rem;
+  border-bottom: none;
+  justify-content: center;
+}
+.cv-content {
+  padding: 32px 8px 48px 8px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.cv-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  max-height: none;
+  overflow: visible;
+}
+header {
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+.cv-summary {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+  text-align: center;
+}
+.ant-divider-inner-text {
+  font-weight: bold;
+  color: #3b82f6;
+}
+.cv-section {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.cv-section h3 {
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+.cv-section ul {
+  list-style: disc inside;
+  margin: 0;
+  padding-left: 1.2em;
+}
+.cv-skills {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.cv-section a {
+  color: #2563eb;
+  text-decoration: none;
+}
+.cv-section a:hover {
+  text-decoration: underline;
+}
+/* Ajuste para listas largas y scroll interno en móvil */
+@media (max-width: 600px) {
+  .cv-content {
+    padding: 8px 2px 24px 2px;
+  }
+  .cv-card {
+    padding: 0.5rem;
+    max-height: none;
+    overflow: visible;
+  }
+}
+@media (max-width: 800px) {
+  .cv-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .cv-navbar {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.cv-nombre-img-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.cv-nombre-img-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cv-nombre {
+  text-align: left;
+}
+.cv-img-round {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  /* sin borde */
+}
+@media (max-width: 700px) {
+  .cv-nombre-img-row, .cv-nombre-img-flex {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .cv-nombre {
+    text-align: center;
+  }
+}
+
+.cv-nombre {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+.cv-nombre h1, .cv-nombre h2, .cv-nombre h3, .cv-nombre h4 {
+  color: #001529;
+  margin: 0;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.cv-img-container {
+  background: #fff;
+  border: 3px solid #2563eb;
+  border-radius: 16px;
+  max-width: 220px;
+  margin: 2rem auto 1.5rem auto;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(37,99,235,0.08);
+}
+.cv-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
