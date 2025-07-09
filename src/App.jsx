@@ -1,5 +1,5 @@
-import './App.css'
-import fondoBlanco from './assets/fondo_blanco.png'
+import React from 'react';
+import fondoBlanco from './assets/fondo_blanco.png';
 import { Layout, Typography, Row, Col, Card, List, Divider, Menu } from 'antd';
 import { useRef } from 'react';
 
