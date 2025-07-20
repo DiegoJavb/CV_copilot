@@ -1,0 +1,23 @@
+name: Deploy React to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Asegúrate que este sea el nombre de tu rama principal
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy React to GitHub Pages
+        uses: bitovi/github-actions-react-to-github-pages@v1.2.4
+        with:
+          checkout: true 
+          checkout-sparse-checkout-cone-mode: true # optional, default is true
+          path: dist # Asegúrate que sea la carpeta de salida de tu build (Vite usa 'dist', CRA usa 'build')
+          install_command: npm install # optional, default is npm ci
+          build_command: npm run build # optional, default is npm run build
+          caching: true 
