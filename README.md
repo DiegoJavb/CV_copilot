@@ -58,14 +58,14 @@ El enlace del proyecto desplegado en github pages es el siguiente:
 
 ## Uso de IA en el proyecto
 
-Este proyecto utilizó sugerencias de GitHub Copilot para:
-- Configurar pruebas unitarias con Jest y Testing Library en un entorno React + Ant Design.
-- Implementar mocks de Ant Design para que las pruebas sean robustas y no dependan del framework visual.
-- Solucionar errores de configuración de Babel y Jest para compatibilidad con ESModules.
-- Mantener el diseño profesional del CV en producción, mientras se asegura la validez de los datos clave mediante pruebas automáticas.
+Este proyecto se benefició significativamente de la asistencia de herramientas de Inteligencia Artificial, específicamente GitHub Copiloty Gemini, para optimizar varias fases del desarrollo:
 
-Las sugerencias de IA permitieron automatizar la solución de errores, mejorar la estructura del código y garantizar buenas prácticas de testing en React.
+- Configuración y Resolución de Conflictos: La IA fue de mucha ayuda para buscar comflictos que aparecieron cuando se intentaba desplegar el proyecto. Las sugerencias de Copilot y Gemini agilizaron la detección de errores en la configuración de Babel y Jest, ademas de los conflictos que se mostraban en el pipeline, minimizando el tiempo de depuración.
+- Agilización del Despliegue: La IA facilitó el proceso de despliegue en GitHub Pages. Al sugerir las configuraciones correctas para los archivos .yml de GitHub Actions y ayudar a resolver errores relacionados con permisos (id-token, pages) y rutas base (homepage/base), se aceleró significativamente la puesta en producción del sitio.
+- Pruebas Unitarias Robustas: Se utilizó para configurar pruebas unitarias con Jest y Testing Library en un entorno React + Ant Design, implementando mocks para asegurar que las pruebas fueran robustas y no dependieran del framework visual.
+- Mantenimiento y Buenas Prácticas: Las sugerencias de IA contribuyeron a mantener un diseño profesional del CV en producción, al tiempo que se aseguraba la validez de los datos clave mediante pruebas automáticas y se fomentaban buenas prácticas de testing y estructura de código.
 
+Las capacidades de la IA permitieron automatizar la solución de errores complejos, mejorar la estructura del código y garantizar la implementación de metodologías de testing modernas en React, resultando en un flujo de trabajo más eficiente y un producto final de mayor calidad.
 ---
 
 ## Descripción del proyecto
