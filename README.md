@@ -2,6 +2,9 @@
 
 Este proyecto es un Curriculum Vitae personal desarrollado en React + Vite.
 
+El enlace del proyecto desplegado en github pages es el siguiente:
+[CV Diego Bacuy](https://diegojavb.github.io/CV_copilot/)
+
 ## Información Personal
 - **Nombre:** DIEGO BACUY
 - **Rol:** JUNIOR SOFTWARE DEVELOPER
